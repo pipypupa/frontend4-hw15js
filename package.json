@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --no-cache --public-url /frontend4-hw18js/",
+    "build": "parcel build src/index.html --no-cache --public-url /frontend4-hw15js/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
@@ -15,6 +15,7 @@
     "parcel": "^2.15.4"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "lodash": "^4.17.21",
     "pnotify": "^5.2.0"
   }
